@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main  {
     public static void main(String[] args){
 
@@ -20,14 +22,21 @@ public class Main  {
 
 
         //Strings
-        String name = "Brian";
-        String bank = new String("NCBA");
-        System.out.println("Name - "+name);
-        System.out.println("Bank - "+bank);
+//        String name = "Brian";
+//        String bank = new String("NCBA");
+//        System.out.println("Name - "+name);
+//        System.out.println("Bank - "+bank);
 
 
         //Arrays
+        int[] list;
+        list = new int[4];
+        list[0]= 13;
+        list[1]= 32;
+        list[2]= 66;
+        list[3]= 31;
 
+        System.out.println(Arrays.toString(list));
 
 
 
