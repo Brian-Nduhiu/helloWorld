@@ -19,6 +19,15 @@ public class Main  {
 //        System.out.println("Boolean - "+hasAccount);
 
 
+        //Strings
+        String name = "Brian";
+        String bank = new String("NCBA");
+        System.out.println("Name - "+name);
+        System.out.println("Bank - "+bank);
+
+
+        //Arrays
+
 
 
 
