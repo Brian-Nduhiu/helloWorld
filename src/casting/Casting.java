@@ -1,6 +1,6 @@
 package casting;
 
-public class casting {
+public class Casting {
     public static void casting(){
         double a = 14354542.231113444233233;
         float b = (float) a;

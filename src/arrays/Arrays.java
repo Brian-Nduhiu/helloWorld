@@ -1,8 +1,6 @@
 package arrays;
 
-import java.util.Arrays;
-
-public class arrays {
+public class Arrays {
     public static void arrays(){
         int[] list;
         list = new int[4];
@@ -11,6 +9,6 @@ public class arrays {
         list[2]= 66;
         list[3]= 31;
 
-        System.out.println(Arrays.toString(list));
+        System.out.println(java.util.Arrays.toString(list));
     }
 }

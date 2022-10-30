@@ -1,6 +1,6 @@
 package primitiveDataTypes;
 
-public class PrimitveDataTypes {
+public class PrimitiveDataTypes {
     public static void primitiveDataTypes(){
         char letter = 'A';
         byte constant = 4;
