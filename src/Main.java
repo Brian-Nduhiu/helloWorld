@@ -3,6 +3,7 @@ import casting.Casting;
 import arrays.Arrays;
 import strings.strings;
 import unaryOperators.UnaryOperators;
+import ternaryOperator.TernaryOperator;
 
 public class Main  {
     public static void main(String[] args){
@@ -25,5 +26,11 @@ public class Main  {
         //Unary Operators
         UnaryOperators.unaryOperator();
         System.out.println(".................................");
+        //Ternary Operator
+        TernaryOperator.ternaryOperator();
+        System.out.println(".................................");
+
+
+
     }
 }
