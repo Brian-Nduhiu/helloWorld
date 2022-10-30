@@ -29,16 +29,30 @@ public class Main  {
 
 
         //Arrays
-        int[] list;
-        list = new int[4];
-        list[0]= 13;
-        list[1]= 32;
-        list[2]= 66;
-        list[3]= 31;
+//        int[] list;
+//        list = new int[4];
+//        list[0]= 13;
+//        list[1]= 32;
+//        list[2]= 66;
+//        list[3]= 31;
+//
+//        System.out.println(Arrays.toString(list));
 
-        System.out.println(Arrays.toString(list));
+        //Explicit Data Conversion / Data Casting
+        double a = 14354542.231113444233233;
+        float b = (float) a;
+        long c = (long) b;
+        int d = (int) c;
+        short e  = (short) d;
+        byte f = (byte) e;
 
-        //test commit
+        System.out.println("Double -"+a);
+        System.out.println("Float -"+b);
+        System.out.println("Long -"+c);
+        System.out.println("Int -"+d);
+        System.out.println("Short -"+e);
+        System.out.println("Byte -"+f);
+
 
     }
 }
