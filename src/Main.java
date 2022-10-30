@@ -1,4 +1,5 @@
 
+import test.package1.TestClass;
 public class Main  {
     public static void main(String[] args){
 
@@ -38,21 +39,22 @@ public class Main  {
 //        System.out.println(Arrays.toString(list));
 
         //Explicit Data Conversion / Data Casting
-        double a = 14354542.231113444233233;
-        float b = (float) a;
-        long c = (long) b;
-        int d = (int) c;
-        short e  = (short) d;
-        byte f = (byte) e;
+//        double a = 14354542.231113444233233;
+//        float b = (float) a;
+//        long c = (long) b;
+//        int d = (int) c;
+//        short e  = (short) d;
+//        byte f = (byte) e;
+//
+//        System.out.println("Double -"+a);
+//        System.out.println("Float -"+b);
+//        System.out.println("Long -"+c);
+//        System.out.println("Int -"+d);
+//        System.out.println("Short -"+e);
+//        System.out.println("Byte -"+f);
 
-        System.out.println("Double -"+a);
-        System.out.println("Float -"+b);
-        System.out.println("Long -"+c);
-        System.out.println("Int -"+d);
-        System.out.println("Short -"+e);
-        System.out.println("Byte -"+f);
-
-        //test commit
+        //import
+        test.package1.TestClass.hello();
 
 
     }
