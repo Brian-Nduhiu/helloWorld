@@ -4,6 +4,8 @@ import arrays.Arrays;
 import strings.strings;
 import unaryOperators.UnaryOperators;
 import ternaryOperator.TernaryOperator;
+import arrayLists.ArrayLists;
+import linkedLists.LinkedLists;
 
 public class Main  {
     public static void main(String[] args){
@@ -29,7 +31,11 @@ public class Main  {
         //Ternary Operator
         TernaryOperator.ternaryOperator();
         System.out.println(".................................");
-
+        //Array List
+        ArrayLists.arrayLists();
+        System.out.println(".................................");
+        //Linked List
+        LinkedLists.linkedLists();
 
 
     }
