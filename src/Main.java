@@ -54,6 +54,19 @@ public class Main  {
 //        System.out.println(x.repeat(n));
 
 
+        String num = "2454984893271922453478";
+        String result = "";
+        char[] numArray = num.toCharArray();
+
+        for (char item: numArray) {
+            if(Character.getNumericValue(item) < 5){
+                result += '0';
+            }
+            else {
+                result += '1';
+            }
+        }
+        System.out.println(result);
         }
 
     }
