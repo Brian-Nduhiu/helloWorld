@@ -29,16 +29,26 @@ public class Main  {
 
 
         //Arrays
-        int[] list;
-        list = new int[4];
-        list[0]= 13;
-        list[1]= 32;
-        list[2]= 66;
-        list[3]= 31;
+//        int[] list;
+//        list = new int[4];
+//        list[0]= 13;
+//        list[1]= 32;
+//        list[2]= 66;
+//        list[3]= 31;
+//
+//        System.out.println(Arrays.toString(list));
 
-        System.out.println(Arrays.toString(list));
+//        char uni = 'A';
+//        System.out.println("Uni char is " + uni);
 
-
+//        int x = 1;
+//        int n = 10;
+//        int[] array = new int[n];
+//        for (int i = 1; i <= n; i++) {
+//            array[i-1] = x * i;
+//
+//        }
+//        System.out.println(Arrays.toString(array));
 
     }
 }
