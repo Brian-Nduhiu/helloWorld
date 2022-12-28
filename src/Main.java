@@ -41,8 +41,7 @@ public class Main  {
 //        char uni = 'A';
 //        System.out.println("Uni char is " + uni);
 
-//        int x = 1;
-//        int n = 10;
+
 //        int[] array = new int[n];
 //        for (int i = 1; i <= n; i++) {
 //            array[i-1] = x * i;
@@ -50,5 +49,11 @@ public class Main  {
 //        }
 //        System.out.println(Arrays.toString(array));
 
+//        String x = "Jamal ";
+//        int n = 10;
+//        System.out.println(x.repeat(n));
+
+
+        }
+
     }
-}
